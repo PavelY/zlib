@@ -1,0 +1,9 @@
+#
+# fips-zlib
+#
+---
+exports:
+    header-dirs : [ '.', 'contrib/minizip' ]
+    modules:
+        zlib-1.2: .
+        minizip:  contrib/minizip
