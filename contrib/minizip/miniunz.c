@@ -52,6 +52,9 @@
 #else
 # include <unistd.h>
 # include <utime.h>
+#ifdef __APPLE__
+# include <sys/stat.h>
+#endif
 #endif
 
 
