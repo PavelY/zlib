@@ -3,7 +3,6 @@
 #
 ---
 exports:
-    header-dirs : [ '.', 'contrib/minizip' ]
+    header-dirs : [ 'contrib/minizip' ]
     modules:
-        zlib12:   .
         minizip:  contrib/minizip
