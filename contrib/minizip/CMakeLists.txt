@@ -5,6 +5,7 @@ fips_begin_lib(minizip)
     fips_files(
         crypt.h
         ioapi.h ioapi.c
+        ioapi_mem.h ioapi_mem.c
         miniunz.c
         mztools.h mztools.c
         unzip.h unzip.c
